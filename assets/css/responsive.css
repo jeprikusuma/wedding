@@ -1,0 +1,70 @@
+@media (min-width:500px)  { 
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    .container{
+        width: calc(100vh * 0.5);
+        height: 100vh;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+}
+@media (min-width:961px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .slide-buttons{
+        display: block;
+    }
+    .container{
+        width: calc(100vh * 0.5);
+        height: 100vh;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    } 
+}
+@media (min-width:1025px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .slide-buttons{
+        display: block;
+    }
+    .container{
+        width: calc(100vh * 0.5);
+        height: 100vh;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    } 
+ }
+@media (min-width:1281px) { 
+    /* hi-res laptops and desktops */
+    .slide-buttons{
+        display: block;
+    }
+    .container{
+        width: calc(100vh * 0.5);
+        height: 100vh;
+        scroll-behavior: smooth;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    } 
+}

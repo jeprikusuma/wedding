@@ -1,0 +1,126 @@
+button{
+    border: none;
+    padding: 14px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-size: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.button{
+    border: none;
+    padding: 14px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-size: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button.primary{
+    margin: 0 5px;
+    background-color: white;
+    color: #BA7969;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+}
+button.primary-2{
+    background-color: #FCDEC0;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+    color: #3D3D3D;
+}
+
+.button-slide{
+    padding: 20px 20px;
+    margin: 10px 20px;
+}
+
+.button-slide:hover{
+    background-color: #FCDEC0;
+}
+
+.button.primary-3{
+    background-color: #6A4A3A;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+    padding: 14px 32px;
+}
+
+button.secondary{
+    border: 2px solid white;
+    color: white;
+    background-color: transparent; 
+    margin: 0 5px;
+}
+
+a.button{
+    text-decoration: none;
+}
+
+.footer-button{
+    background-color: #FCDEC0;
+    padding: 8px;
+    border-radius: 16px;
+    margin: 0 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+}
+.footer-button-icon{
+    width: 16px;
+}
+
+input{
+    font-size: 12px;
+    border-radius: 30px;
+    border: none;
+    padding: 16px 0px;
+    background-color: #E8E8E8;
+    background-size: 16px;
+    background-position: 20px 18px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+input.name{
+    background-image: url(../img/svg/user.svg);
+}
+input.email{
+    background-image: url(../img/svg/email.svg);
+}
+
+.sound{
+    position: fixed;
+    background-color: #9B8765;
+    z-index: 999999;
+    bottom: 3vh;
+    right: 3vw;
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.sound-img{
+    /* width: 18px; */
+    height: 18px;
+    object-fit: cover;
+}
+
+audio.hide{
+    display: none;
+}

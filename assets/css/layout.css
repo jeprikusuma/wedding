@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-snap-points-y: repeat(100%);
+    scroll-snap-type: y mandatory;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+  }
+  
+.container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #6A4A3A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-1{
+    background-color: white;
+}
+
+.bg-2{
+    background-color: #C7B8A1;
+}
+
+.bg-3{
+    background-color: #6A4A3A;
+}
+
+.bg-4{
+    background-color: #E0A796;
+}
+
+.bg-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content{
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    text-align: center;
+    width: 90%;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.sub-text{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.text-dark{
+    color: #3D3D3D;
+}
+
+.mt-0{
+    margin-top: -5px;
+}
+.mt-1{
+    margin-top: 10px;
+}
+
+.mb-1{
+    margin-bottom: 10px;
+}
+
+.mt-2{
+    margin-top: 20px
+}
+
+.mx-1{
+    margin: 0 20px;
+}
+
+.text-horizontal{
+    display: flex;
+    text-align: center;
+    align-self: center;
+}
+
+.bottom{
+    margin-bottom: 10%;
+    z-index: 99;
+    width: 85%;
+}
+
+.bottom-2{
+    margin-bottom: 10%;
+    z-index: 99;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel{
+    height: 40%;
+    background-color: #6A4A3A;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+.slider{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 40%;
+    width: 100%;
+    display: flex;
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+  }
+  
+.slider {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+
+.slide{
+    scroll-snap-align: start;
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    /* animation: scroll 30s linear infinite; */
+}
+
+.reservation{
+    height: 60%;
+    width: 100%;
+    background-color: #6A4A3A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-top: 5%;
+}
+
+.up-content{
+    flex: 1;
+    background-color: #C7B8A1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.left{
+    margin-right: 20px;
+}
+
+.right{
+    margin-left: 20px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% 0;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+}
+
+.item-icon{
+    width: 60px;
+}
+
+.item-text{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer{
+    background-color: #93675A;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+.footer-buttons{
+    display: flex;
+}
+
+.title-icon{
+    width: 50%;
+    margin-top: 10%;
+}
+
+.slide-buttons{
+    display: none;
+}
+
+.animate{
+    opacity: 0;
+}
+
+.animated{
+    animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

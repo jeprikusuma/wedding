@@ -1,0 +1,68 @@
+@font-face {
+    font-family: LostaMasta;
+    src: url(../font/Losta-Masta/LostaMasta-Thin.otf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../font/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../font/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../font/Poppins/Poppins-Medium.ttf);
+}
+
+h1{
+    font-family: LostaMasta;
+    letter-spacing: 3px;
+    font-size: 24px;
+}
+
+h1.text-spacing{
+    letter-spacing: 12px;
+}
+
+h2{
+    font-family: LostaMasta;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+p{
+    font-family: Poppins;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.semi-bold{
+    font-family: Poppins-SemiBold;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.text-head{
+    font-family: Poppins-Bold;
+    font-size: 18px;
+}
+
+.small{
+    font-size: 10px;
+}
+
+button{
+    font-family: Poppins-Bold;
+}
+
+.button{
+    font-family: Poppins-Bold;
+}
+
+input{
+    font-family: Poppins;
+}
